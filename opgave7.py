@@ -1,6 +1,4 @@
 
-
-
 while True:
     try:
         invoer = int(input("geef een positief getal in!\n"))
