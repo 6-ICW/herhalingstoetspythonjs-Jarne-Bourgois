@@ -1,4 +1,5 @@
 function rekenmachine(x, y, operator) {
+  // maak gebruik van een switch statement
   if (operator == "+") {
     return x + y;
   } else if (operator == "-") {
@@ -8,7 +9,7 @@ function rekenmachine(x, y, operator) {
   } else if (operator == "/") {
     return x / y;
   } else {
-    print(" je hebt iets fouts gedaan");
+    print(" je hebt iets fouts gedaan"); // zorg voor gepaste foutmelding
   }
 }
 

@@ -1,11 +1,11 @@
 import random as rm
 
 
-randemgetal = rm.randint(1,5)
+randomgetal = rm.randint(1,5)  #random ipv randem 
 # print(randemgetal)
 while True:
     gok = int(input("kies een getal tussen 1 en 5\n"))
-    if (randemgetal == gok):
+    if (randomgetal == gok):
         print("goed gedaan het casino wacht op je!")
         break
     else : 
